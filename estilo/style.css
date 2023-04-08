@@ -1,0 +1,9 @@
+:root{
+    --branco:#F8F9FA;
+    --fonte-principal:'Inter', sans-serif;
+}
+
+.item_color{
+    color: var(--branco) !important ;
+
+}
