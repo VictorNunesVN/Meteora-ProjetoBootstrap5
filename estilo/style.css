@@ -24,14 +24,19 @@ body{
     display: flex;
     column-gap: 40px;
     justify-content: center;
+    height: 150px;
 }
 
+#tamanho{
+    width: 110px ;
+    height: 100px;
+}
 
 .borda{
    border-color: transparent !important;
 }
 
 .txt-cat{
-    font-size: 16px ;
+    font-size: 12px ;
     color: white;
 }
