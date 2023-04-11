@@ -7,9 +7,7 @@ body{
     background-color: white;
 }
 
-.item_color{
-    color: var(--branco) !important ;
-}
+
 
 .cabecalho ,.principal{
     font-family: var(--fonte-principal);
