@@ -31,13 +31,3 @@ body{
     font-size: 12px ;
     color: white;
 }
-
-.container2{
-    display: grid;
-    grid-template-columns:
-    "camisa calca tenis"
-    "jaqueta oculos bolsa";
-    grid-area: camisa;
-    grid-area: calca;
-    grid-area: tenis;
-}
