@@ -31,3 +31,11 @@ body{
     font-size: 12px ;
     color: white;
 }
+
+.texto-menor{
+    font-size: 13px;
+}
+
+.div-facilidades{
+    width: 325px;
+}
