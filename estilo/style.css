@@ -21,9 +21,6 @@ body{
 .margem{
     margin: auto !important;
 }
-.borda{
-   border-color: transparent !important;
-}
 
 .txt-cat{
     font-size: 12px ;
