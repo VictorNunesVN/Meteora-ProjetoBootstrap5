@@ -63,22 +63,31 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="/img/banners/ImagemBanner 1 _1440.png" class="d-block w-100"
+            <img class="img-fluid d-md-none" src="/img/banners/banner1_375.png" class="d-block w-100"
               alt="mulher branca com fundo roxo e logo da Meteora">
+            <img class="img-fluid d-none d-md-block d-xl-none" src="img/banners/banner1_768.png" alt="mulher branca com fundo roxo e logo da Meteora">
+            <img class="img-fluid d-none d-xl-block" src="img/banners/ImagemBanner 1 _1440.png" alt="mulher branca com fundo roxo e logo da Meteora">
           </div>
+
           <div class="carousel-item" data-bs-interval="10000">
-            <img src="/img/banners/ImagemBanner 2_1440.png" class="d-block w-100"
+            <img class="img-fluid d-md-none" src="/img/banners/banner2_375.png" class="d-block w-100"
               alt="Mulher negra sentada num fundo salmão">
+            <img class="img-fluid d-none d-md-block d-xl-none" src="/img/banners/banner2_768.png" alt="Mulher negra sentada num fundo salmão">
+            <img class="img-fluid d-none d-xl-block" src="/img/banners/ImagemBanner 2_1440.png" alt="Mulher negra sentada num fundo salmão">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="titulo fs-1">COLEÇÃO ATEMPORAL</h5>
               <p class="subtitulo ">Estilo e qualidade para durar.</p>
             </div>
           </div>
+
           <div class="carousel-item" data-bs-interval="10000">
-            <img src="/img/banners/ImagemBanner 3_1440.png" class="d-block w-100"
+            <img class="img-fluid d-md-none" src="/img/banners/banner3_375.png" class="d-block w-100"
               alt="Homem negro, de chapel, num nundo lanraja">
+            <img class="img-fluid d-none d-md-block d-xl-none" src="img/banners/banner3_768.png" alt="">
+            <img class="img-fluid d-none d-md-none d-xl-block" src="img/banners/ImagemBanner 3_1440.png" alt="">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="titulo fs-1">COLEÇÃO ATEMPORAL</h5>
               <p class="subtitulo">Alto impacto visual, baixo impacto ambiental!</p>
@@ -381,14 +390,14 @@
     <form class="border border-secondary ms-5 me-5 p-3 text-center">
       <h5 class="texto-menor">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
       <div class="input-group my-3">
-        <input class="form-control border-secondary rounded-0" type="email" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail"
+        <input class="form-control border-secondary rounded-0 " type="email" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail"
           aria-describedby="button-addon2" />
-        <button type="button" id="button-addon2">Enviar</button>
+        <button class="btn btn-ligth text-light bg_botao rounded-0" type="button" id="button-addon2">Enviar</button>
       </div>
     </form>
 
-    <footer class="text-center">
-      <p>2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+    <footer class="text-center bg-black">
+      <p class="text-light text-center texto-menor p-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
     </footer>
   </main>
 
